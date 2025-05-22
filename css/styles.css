@@ -1,4 +1,10 @@
-h1,h2 {
+h1,h2,h3,h6,p {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+btn-info {
     font-family: "Abhaya Libre", serif;
     font-weight: 400;
     font-style: normal;
