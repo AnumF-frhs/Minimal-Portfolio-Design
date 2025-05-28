@@ -1,11 +1,43 @@
-h1,h2,h3,h6,p {
-    font-family: "Abhaya Libre", serif;
-    font-weight: 400;
-    font-style: normal;
+h1 {
+    font-family: 'Anton' ;font-size: 50px;
+}
+
+h2 {
+    font-family: 'Anton' ;font-size: 25px;
+    font-weight: lighter;
+}
+
+h6 {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Bellota' ;
+    font-weight: bold;
 }
 
 btn-info {
     font-family: "Abhaya Libre", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+div [class="btn"] {
+    background-color: aliceblue;
+    border-color: lightblue;
+}
+
+.splashScreen {
+    padding: 120px 60px;
+    background-image: url('../img/italy.jpeg');
+    background-position: center;
+}
+
+.white {
+    color:white
+}
+
+.black {
+    color:black
 }
