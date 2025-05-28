@@ -23,7 +23,7 @@ btn-info {
     font-style: normal;
 }
 
-div [class="btn"] {
+div [class^="btn"] {
     background-color: aliceblue;
     border-color: lightblue;
 }
@@ -32,6 +32,11 @@ div [class="btn"] {
     padding: 120px 60px;
     background-image: url('../img/italy.jpeg');
     background-position: center;
+}
+
+i[class*="fi-brands-"]:before {
+    font-size: 2rem;
+    line-height: 1.6;
 }
 
 .white {
