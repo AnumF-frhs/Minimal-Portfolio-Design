@@ -1,0 +1,25 @@
+.bw {
+    height:800px;
+    background-image: url('../img/italy.jpeg');
+    background-color: rgb(50, 50, 50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 85%;
+}
+
+h1,h5 {
+    text-transform: uppercase;
+    color: white;
+}
+
+h5 {
+    font-size: 2rem;
+}
+btn-primary {
+    color:aliceblue
+}
